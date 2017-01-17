@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+  <style>
+    body{
+      margin: 0;
+    }
+    .bigbox{
+      height: 200px;
+      width: 350px;
+      margin: 0;
+    }
+    #top{
+      background-color: red;
+    }
+    #bottom{
+      background-color: blue;
+    }
+    .little{
+      /*display: inline-block;*/
+      background-color: black;
+      height: 100px;
+      width: 100px;
+      margin-left: 50px;
+      margin-top: 50px;
+      /*margin-right: 0;*/
+    }
+    div {
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <div class="bigbox" id="top">
+    <div class="left little"></div>
+    <div class="right little"></div>
+  </div><!--
+--><div class="bigbox" id="bottom">
+    <div class="left little"></div>
+    <div class="right little"></div>
+  </div>
+</body>
+</html>
